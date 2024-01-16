@@ -1,0 +1,46 @@
+h1, h2, h3, h4, p, li, .icon, img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+h1:hover,h2:hover,h3:hover,h4:hover,p:hover,li:hover {
+    color: #17E88F;
+    transform: scale(1.02);
+}
+
+.topLogo {
+    position: absolute;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+}
+.wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+}
+
+table {
+    font-size: 1rem;
+    border-collapse:  collapse;
+    width:  80%;
+    table-layout: fixed;
+}
+
+.icon {
+    color: #80BBAD;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.icon:hover,img:hover  {
+    transform: scale(1.1);
+}
